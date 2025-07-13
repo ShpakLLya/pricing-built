@@ -11,7 +11,7 @@
     align-items: center;
     gap:13px 0 ;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     padding: 137px 0 72px 0;
 }
 .header_title_little {
@@ -26,8 +26,8 @@
     height: 601px;
     width: 266px;
     border-radius: 2px;
+    font-weight: 500;
 }
-
 .card_list {
     grid-column: 2/3;
     grid-row: 2/3;
@@ -42,7 +42,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    font-weight: 500;
     padding-left: 35px;
     color: white;
     border-radius: 2px;
@@ -96,10 +95,12 @@
 
 .card_title {
     font-size: 21px;
+    font-weight: 500;
     padding-top: 70px;
 }
 .card_text {
     font-size: 12px;
+    font-weight: 400;
     padding-bottom: 27px;
 }
 .card_adventge_list {
@@ -122,12 +123,14 @@
 
 .card_price {
     position: relative;
-    bottom: 20px;
+    bottom: 45px;
 }
 
 .price {
     padding-left: 10px;
-    font-size: 36px;
+    font-size: 67px;
+    font-weight: 700;
+    letter-spacing: -0.1px;
 }
 
 .checker {
@@ -146,6 +149,7 @@
     border-radius: 3px;
     color: white;
     transition: background-color 0.5s;
+    font-weight: 500;
 }
 .start_button:hover {
     background-color: white;
