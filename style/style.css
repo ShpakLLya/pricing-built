@@ -1,0 +1,180 @@
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1082px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.header {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap:13px 0 ;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 137px 0 72px 0;
+}
+.header_title_little {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.card_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 601px;
+    width: 266px;
+    border-radius: 2px;
+}
+
+.card_list {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    gap:10px 6px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    padding-left: 35px;
+    color: white;
+    border-radius: 2px;
+    
+}
+
+.yellow {
+    background-image: linear-gradient(#FDC624, #E6C434) ;
+}
+
+.cyan {
+    background-image: linear-gradient(#55DCE7, #3DCAD4);
+}
+
+.blue {
+    background-image: linear-gradient(#6BDFFF, #3DACFC);
+}
+
+.grey {
+    background-image: linear-gradient(#BFCEDC, #939FB3);
+}
+
+.most_popular {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:0 4px;
+    padding:9px 0 6px 0;
+    border-radius: 2px 2px 0 0;
+    background-image: linear-gradient(#63D6FE, #5DD4F8);
+}
+
+.most_popular_image{
+    width: 12px;
+}
+
+.card_logo_link {
+    display: block;
+    align-self: flex-end;
+    height: 139px;
+}
+
+.card_logo {
+    padding: 72px 36px 15px 0;
+    
+}
+
+.card_title {
+    font-size: 21px;
+    padding-top: 70px;
+}
+.card_text {
+    font-size: 12px;
+    padding-bottom: 27px;
+}
+.card_adventge_list {
+    display: flex;
+    flex-direction: column;
+    gap: 19px 0;
+    
+}
+
+.card_advantage {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.card_advantage.checker, .card_advantage span {
+    display: block;
+}
+
+.card_price {
+    position: relative;
+    bottom: 20px;
+}
+
+.price {
+    padding-left: 10px;
+    font-size: 36px;
+}
+
+.checker {
+    width: 10px;
+}
+
+.card_advntage_text{
+    padding-left: 10px;
+}
+
+.start_button {
+    margin: 0 30px 36px 35px;
+    padding: 13px 51px 11px 52px;
+    background-color: inherit;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    transition: background-color 0.5s;
+}
+.start_button:hover {
+    background-color: white;
+}
+
+.yellow_text {
+    transition: color 0.5s;
+}
+.yellow_text:hover {
+    color:#E6C434 ;
+}
+
+.cyan_text{
+    transition: color 0.5s;
+}
+.cyan_text:hover {
+    color:#3DCAD4;
+}
+
+.blue_text {
+    transition: color 0.5s;
+}
+.blue_text:hover {
+    color:#3DACFC ;
+}
+
+.grey_text {
+    transition: color 0.5s;
+}
+.grey_text:hover {
+    color:#939FB3 ;
+}
