@@ -151,7 +151,7 @@
     border: 2px solid white;
     border-radius: 3px;
     color: white;
-    transition: background-color 0.5s color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
     font-weight: 500;
     mix-blend-mode: lighten;
 }
